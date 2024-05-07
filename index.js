@@ -1,0 +1,14 @@
+/********************************
+ * TYPE ANNOTATIONS WITH ARRAYS *
+ ********************************/
+let vegetable = ["Onion", "Potato", "LadyFinger", "Lemon", "Tomato", "Spinach"];
+for (let i = 0; i < vegetable.length; i++) {
+    console.log(vegetable[i]);
+}
+/*************************************************
+ * TYPE ANNOTATIONS WITH MULTIDIMENSIONAL ARRAYS *
+ *************************************************/
+let number = [11, 12, 13, 14, 15];
+let vegetableandnumber = ["Onion", "Potato", "LadyFinger", "Lemon", "Tomato", "Spinach", 11, 12, 13, 14, 15];
+console.log(vegetableandnumber);
+export {};
